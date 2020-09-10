@@ -13,8 +13,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Nomess\\Components\\ApplicationScope\\": "/"
-        }
+        "Nomess\\Component\\ApplicationScope\\": "/"
     }
 }

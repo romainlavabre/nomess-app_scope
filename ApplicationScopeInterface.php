@@ -7,6 +7,10 @@ namespace Nomess\Component\ApplicationScope;
 interface ApplicationScopeInterface
 {
     
+    /**
+     * @param $index
+     * @return bool
+     */
     public function has($index): bool;
     
     /**
