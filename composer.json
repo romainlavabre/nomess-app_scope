@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "nomess/config": "*",
-        "nomess/cache": "^0.0.2"
+        "nomess/cache": "*"
     },
     "authors": [
         {
@@ -13,6 +13,8 @@
         }
     ],
     "autoload": {
-        "Nomess\\Component\\ApplicationScope\\": "/"
+        "psr-4": {
+            "Nomess\\Component\\ApplicationScope\\": "/"
+        }
     }
 }
