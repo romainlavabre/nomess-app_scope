@@ -4,7 +4,9 @@
     "type": "library",
     "require": {
         "nomess/config": "*",
-        "nomess/cache": "*"
+        "nomess/cache": "*",
+        "nomess/kernel": "*",
+        "nomess/cli": "*"
     },
     "authors": [
         {
